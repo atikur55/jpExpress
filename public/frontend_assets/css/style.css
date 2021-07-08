@@ -1,0 +1,264 @@
+.navbar .megamenu{ padding: 1rem; }
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+/* ============ mobile view .end// ============ */
+
+
+.topbar{
+	background-color: #0cc9e8;
+	color: #141414;
+	padding: 10px 0;
+}
+.top-info{
+	display: inline;
+	margin-right: 10px;
+	font-weight: 500;
+}
+@media (min-width:768px) and (max-width:992px){
+	.top-info{
+		display: block;
+	}
+}
+.top-info svg{
+	fill: white;
+	background-color: #e3232c;
+	padding: 4px;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+}
+.top-btn a{
+	text-decoration: none;
+	margin-left: 10px;
+	font-weight: 500;
+	transition: 0.4s;
+}
+@media (max-width:768px){
+	.top-btn a{
+		margin-left: 0;
+		margin-right: 10px;
+	}
+}
+.top-btn-1{
+	color: #e3232c;
+	padding: 4px 18px;
+	border: 1px solid #e3232c;
+	border-radius: 20px;
+}
+.top-btn-2{
+	color: #141414;
+}
+.top-btn a:hover{
+	color: #f5f5f5;
+	border-color: #f5f5f5;
+}
+
+.navbar{
+	background-color: #ffffff;
+	color: #141414;
+	padding: 0;
+	border-bottom: 2px solid #e3232c;
+}
+.nav-item{
+	transition: 0.4s;
+}
+.nav-item:hover{
+	border-radius: 15px 15px 0 0;
+	background-color: #0cc9e8;
+}
+.nav-item a{
+	color: #141414;
+	text-decoration: none;
+}
+.navbar-brand{
+}
+.navbar-brand img{
+	width: 30%;
+}
+.banner{
+	position: relative;
+}
+.slide{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+.slide h2{
+	padding: 120px 13.5% 0;
+	text-transform: capitalize;
+	font-size: 60px;
+	font-weight: bold;
+}
+.slide p{
+	padding: 0 13.5% 0;
+	font-size: 20px;
+}
+.track{
+	/* position: absolute; */
+	z-index: 1;
+	/* bottom: 50px; */
+	padding: 20px 13.5%;
+	text-transform: capitalize;
+	/* background-color: #141414; */
+	/* color: white; */
+}
+.track form{
+	background-color: #0ccbe894;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+.track .radios label{
+	margin-right: 100px;
+}
+.track form input{
+	margin-top:6px;
+}
+.track .btn{
+	margin-top: 6px;
+	width: 100%;
+	background-color: #e3232c;
+	color: white;
+}
+
+.rate{
+	margin: 60px auto;
+}
+.rates-calc{
+	text-transform: capitalize;
+}
+.chk-rate{
+	background-color: #0cc9e8;
+	color: white;
+	width: 100%;
+}
+.clear-rate{
+	background-color: #e3232c;
+	color: white;
+	width: 100%;
+}
+
+.services-section{
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+.services-section h2{
+	font-size: 60px;
+}
+.services-section .card svg {
+    height: 100%;
+    width: 100%;
+    padding: 40px 100px 10px;
+    margin: 0 auto;
+	fill: #0cc9e8;
+}
+.services-section .card-body{
+	margin-top: -30px;
+}
+.services-section .card-body p{
+	color: #1d1d1d;
+}
+.services-section .card-body a{
+	background-color: #0cc9e8;
+	color: white;
+	transition: 0.4s;
+	border: 1px solid #0cc9e8
+}
+.services-section .card-body a:hover{
+	background-color: white;
+	color: #0cc9e8;
+}
+
+.packages{
+	padding: 40px 0;
+}
+.package-wrapper{
+	background-image: url(../img/journey/journey-1.jpeg);
+	background-repeat: none;
+	background-size: cover;
+}
+.package{
+	padding: 20px 10px;
+	background-color: #0cc9e850;
+	text-transform: capitalize;
+
+}
+.network{
+	text-transform: capitalize;
+	padding: 40px 0;
+}
+
+footer{
+	text-transform: capitalize;
+	color: white;
+	background-color: #333333;
+	padding: 40px 0;
+}
+
+.foot-icon svg{
+	height: 30px;
+	width: 30px;
+	padding: 5px;
+	fill: #0cc9e8;
+	background-color: white;
+	border-radius: 15px;
+	margin-right: 4px;
+}
+
+footer a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	transition: 0.4s;
+	margin-top: 4px;
+}
+
+.footbar{
+	text-align: center;
+}
+.footbar a{
+	display: inline;
+	margin: 0 10px;
+	font-size: 20px;
+}
+
+.footbar .facebook{
+	color: #3b5998;
+}
+.footbar .twitter{
+	color: #00acee;
+}
+.footbar .instagram{
+	color: #fbad50;
+}
+.footbar .linkedin{
+	color: #0077b5;
+}
+.footbar .youtube{
+	color: #ff0000;
+}
+.footbar .google{
+	color: #34a853;
+}
+.footbar a:hover{
+	color: white;
+}
+.rate-img img{
+	width: 100%;
+}
